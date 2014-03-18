@@ -7,5 +7,5 @@ RUN apt-get -y install nginx-full
 # copy required conf files and folders
 ADD files /files
 
-RUN cp -vr /files/supervisor /etc; \
+RUN cp -vr /files/supervisor /etc
 
