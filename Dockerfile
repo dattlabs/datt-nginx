@@ -5,5 +5,5 @@ MAINTAINER inthecloud247 "inthecloud247@gmail.com"
 RUN apt-get -y install nginx-full
 
 # copy required conf files and folders
-ADD files /
+ADD files/nginx.conf /etc/supervisor/conf.d/
 RUN mkdir -v /var/log/supervisor/nginx
