@@ -1,5 +1,5 @@
 FROM datt/datt-base:latest
-MAINTAINER inthecloud247 "inthecloud247@gmail.com"
+MAINTAINER John Albietz <inthecloud247@gmail.com>
 
 # nginx
 RUN apt-get -y install nginx-full
